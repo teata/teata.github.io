@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/tamc.css" rel="stylesheet">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <ul class="nav masthead-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tcontact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="WebContent">Content<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="recipe.html">Tea Companions Recipe</a></li>
+                        <li><a href="Quote.html">Quote</a></li>
+                        <li><a href="story.html">Inspiring Story</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Form Name -->
+     <section id="contact-section">
+        <div class="container">
+            <div class="row">
+               
+                    <div class="block">
+                        <h2 class="subtitle" data-wow-duration="500ms" data-wow-delay=".3s">Feel Free to Contact or Share your Story</h2>
+                        <div class="contact-form">
+                            <form id="contact-form" method="post" action="sendmail.php" role="form">
+
+                                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
+                                    <input type="text" placeholder="your full name" class="form-control" name="name" id="name">
+                                </div>
+
+                                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s">
+                                    <input type="email" placeholder="your email" class="form-control" name="email" id="email">
+                                </div>
+
+                                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+                                    <input type="text" placeholder="state / city" class="form-control" name="subject" id="subject">
+                                </div>
+
+                                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.2s">
+                                    <textarea rows="6" placeholder="your story" class="form-control" name="message" id="message"></textarea>
+                                </div>
+
+
+                                <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
+                                    <input type="submit" id="contact-submit" class="btn btn-default btn-send" value="Send">
+                                </div>
+                            </form>
+                            
+                        </div>
+                   
+                </div>
+              
+    </section>
+    </div>
+</body>
+
+</html>

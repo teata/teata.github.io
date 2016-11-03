@@ -1,0 +1,224 @@
+header {
+    overflow: hidden;
+    background-color: none;
+    color: white;
+}
+container{
+    overflow: hidden;
+    background-color: wheat;
+    color: black;
+}
+body {
+    height: 100%;
+    background-image:url(../images/workplace.jpg); 
+    text-align: center;
+}
+
+.h1 {
+    margin-left: 20px;
+    display: table;
+}
+.h2 {
+    margin-left: 20px;
+    color: white;
+}
+.masthead-nav > li {
+    margin-left: 30px;
+    margin-top: 15px;
+    display: inline-block;
+    
+}
+.nav{
+    margin-right: 75px;
+ color: white;
+}
+
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    color: rgba(255, 255, 255, .75);
+    border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+.masthead-nav {
+    float: left;
+    color: white;
+}
+a,
+a:focus,
+a:hover {
+    color: black;
+    font-size: 15px;
+}
+a.dropdown-toggle{
+    background-color: transparent;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.masfoot {
+    text-align: center;
+    color: black;
+    font-family: montez;
+    font-weight: 300;
+    font-size: 15px;
+    position: fixed;
+    bottom: 45px;
+    left: 1025px;
+}
+.inner {
+    font-size: 30px;
+    padding-top: 250px;
+    text-align: center;
+    color:aliceblue;
+    }
+.innercover{
+ font-size: 20px;
+    padding-top: 50px;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: justify;
+    color:blue;   
+}
+.cover-heading {
+    font-family: montez;
+    margin-top: 5px;
+    font-size: 120px;
+   color: white;
+    position: fixed;
+    top: 225px;
+    left: 375px;
+}
+.lead {
+    font-family: montez;
+    font-size: 30px;
+ color: white;
+    position: fixed;
+    top: 375px;
+    left: 500px;
+}
+.isi{
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    color: snow;
+    position: fixed;
+    top: 225px;
+    left: 225px;
+    right: 225px;
+    text-align: justify;        
+}
+.container {
+    margin-top: 100px;
+    overflow: hidden;
+}
+.fieldset {
+    display: block;
+    margin-top: 30px;
+}
+.row {
+    margin-top: 150px;
+}
+.h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.myCarousel {
+    overflow: hidden;
+    
+}
+.form {
+    text-align: right;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    color:white;
+}
+.nav.open>a{
+    background-color:
+}
+.col-sm-4 {
+    color: black;
+    text-align: left;
+}
+.col-sm-6{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+        }
+.container h3 {
+    text-align: center;
+}
+.col-sm-10 {
+    width: 300px;
+}
+.col-md-6{
+    position:fixed;
+    margin top:50px;
+}
+.carousel{
+   height: 500px;
+    margin-bottom: 30px;
+    position: fixed;
+    margin-top: 100px; 
+}
+.judul{
+/*
+    position: fixed;
+    margin-top: 85px;
+    margin-left: 35px;
+*/
+    margin-top:150px;
+    font-size: 25px;
+    color:blue;
+    text-align: center;
+}
+.subtitle{
+    color:white;
+    font-family: sans-serif;
+}
+
+}
+.block{
+   margin-left: 500px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+ul, li{
+    list-style: none;
+    padding: 15px;
+    float: left;
+}
+.submenu{
+    display: none;
+}
+ul.submenu li{
+    display: inline
+}
