@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>index</title>
+    <title>contact1</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,7 @@
             <ul class="nav masthead-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="tcontact.html">Contact</a></li>
+                <li><a href="contact1.html">Contact</a></li>
                 <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="WebContent">Content<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="recipe.html">Tea Companions Recipe</a></li>
@@ -27,6 +27,41 @@
                 </li>
             </ul>
         </nav>
+    </div>
+   <div class="judul">
+            <p>Contact me or Share your story</p><br>
+    </div>
+    <div class="kontak">
+     <form class="form-horizontal" role="form" method="post" action="index.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="name" name="name" placeholder="Your full Name" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="email" name="email" placeholder="youremail@domain.com" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label">Message</label>
+		<div class="col-sm-10">
+			<textarea class="form-control" rows="4" name="message"></textarea>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<! Will be used to display an alert to the user>
+		</div>
+	</div>
+</form>
     </div>
     </body>
 </html>

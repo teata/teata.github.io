@@ -96,12 +96,12 @@ a.dropdown-toggle{
     }
 .innercover{
  font-size: 20px;
-    padding-top: 50px;
+    padding-top: 175px;
     padding-left: 180px;
     padding-right: 180px;
     text-align: justify;
-    color:blue;   
-}
+    color:azure; 
+    }
 .cover-heading {
     font-family: montez;
     margin-top: 5px;
@@ -122,7 +122,7 @@ a.dropdown-toggle{
 .isi{
     font-family: sans-serif;
     margin-top: 25px;
-    font-size: 30px;
+    font-size: 25px;
     color: snow;
     position: fixed;
     top: 125px;
@@ -153,7 +153,7 @@ a.dropdown-toggle{
     
 }
 .form {
-    text-align: right;
+    margin-top: 150px;
 }
 .dropdown-submenu {
     position: relative;
@@ -182,6 +182,7 @@ a.dropdown-toggle{
 }
 .col-sm-10 {
     width: 300px;
+    padding-left: 50px;
 }
 .col-md-6{
     position:fixed;
@@ -194,15 +195,11 @@ a.dropdown-toggle{
     margin-top: 100px; 
 }
 .judul{
-/*
     position: fixed;
-    margin-top: 85px;
-    margin-left: 35px;
-*/
-    margin-top:150px;
+    margin-top: 125px;
+    margin-left: 550px;
     font-size: 25px;
-    color:blue;
-    text-align: center;
+    color:azure;
 }
 .subtitle{
     color:white;
@@ -217,8 +214,11 @@ a.dropdown-toggle{
 }
 ul, li{
     list-style: none;
-    padding: 15px;
+    padding: 5px;
     float: left;
+    font-size: 15px;
+    color:black;
+    text-align: left;
 }
 .submenu{
     display: none;
@@ -226,3 +226,24 @@ ul, li{
 ul.submenu li{
     display: inline
 }
+.kontak{
+   color:azure;
+    font-size: 15px;
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+.form-control {
+    display: block;
+    width: 175%;
+    height: 34px;
+    padding: 12px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
