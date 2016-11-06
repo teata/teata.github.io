@@ -10,7 +10,7 @@ container{
 }
 body {
     height: 100%;
-    background-image:url(../images/workplace.jpg); 
+    background-image:url(../images/workplace1.jpg); 
     background-repeat:no-repeat;
     text-align: center;
 }
@@ -65,9 +65,9 @@ body {
 a,
 a:focus,
 a:hover {
-    color: black;
+    color: white;
     font-size: 15px;
-}
+   }
 a.dropdown-toggle{
     background-color: transparent;
 }
@@ -76,12 +76,11 @@ a.dropdown-toggle{
 .btn-default:focus {
     color: #333;
     text-shadow: none;
-    background-color: #fff;
     border: 1px solid #fff;
 }
 .masfoot {
     text-align: center;
-    color: black;
+    color: white;
     font-family: montez;
     font-weight: 300;
     font-size: 15px;
@@ -109,26 +108,26 @@ a.dropdown-toggle{
     font-size: 120px;
    color: white;
     position: fixed;
-    top: 225px;
-    left: 375px;
+    top: 150px;
+    left: 470px;
 }
 .lead {
     font-family: montez;
     font-size: 30px;
- color: white;
+    color: white;
     position: fixed;
-    top: 375px;
-    left: 500px;
+    top: 300px;
+    left: 750px;
 }
 .isi{
     font-family: sans-serif;
-    margin-top: 30px;
-    font-size: 20px;
+    margin-top: 25px;
+    font-size: 30px;
     color: snow;
     position: fixed;
-    top: 225px;
+    top: 125px;
     left: 225px;
-    right: 225px;
+    right: 100px;
     text-align: justify;        
 }
 .container {
@@ -140,6 +139,9 @@ a.dropdown-toggle{
     margin-top: 30px;
 }
 .row {
+    margin-top: 50px;
+}
+.frow {
     margin-top: 150px;
 }
 .h3 {
@@ -166,8 +168,9 @@ a.dropdown-toggle{
     background-color:
 }
 .col-sm-4 {
-    color: black;
-    text-align: left;
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
 .col-sm-6{
     color: white;
