@@ -1,3 +1,8 @@
+@font-face{
+    font-family:montez;
+/*        src:url("../fonts/montez-regular.ttf");*/
+    src:url("../fonts/montez-regular.ttf");
+}
 header {
     overflow: hidden;
     background-color: none;
