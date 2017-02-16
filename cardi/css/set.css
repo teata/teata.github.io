@@ -57,17 +57,22 @@
 }
 
 .grid figure p {
-	font-size: 14px;
+	font-size: 20px;
     
 }
 /*work*/
 
+/*
 #works {
     padding: 2em;
 }
+*/
 
+#works figcaption{
+    width: 200px;
+}
 #works figcaption a {
-    border: 1px solid #fff;
+/*    border: 1px solid #fff;*/
     margin-top: 1em;
     display: inline-block;
     color: #fff;
@@ -77,6 +82,8 @@
 #works figcaption a:hover {
     text-decoration: none;
     padding: 0 3em;
+}
+
 }
 /*---------------*/
 /***** Oscar *****/
@@ -125,7 +132,7 @@ display:block;
 }
 .category_container{
     display: block;
-    margin: 5px 50px;
+    margin: 5px 50px 25px;
     overflow: hidden;
 }
 
@@ -140,7 +147,7 @@ display:block;
     padding:8px;
     text-align: center;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 12px;
     color:black;
     margin:0.5px;
     border-radius: 4px 0 4px 0;

@@ -37,6 +37,7 @@
     float:left;
     padding:5px;
     transition: all 0.5s ease;
+    
 }
 
 .hide{
@@ -44,4 +45,16 @@
     width: 0;
     padding:0;
     transition: all 0.5s ease;
+    z-index: 1;
+}
+.section-header{
+    text-align: center;
+    padding: 50px;
+}
+
+.section-header h2{
+    font-size: 40px;
+}
+.section-header p{
+    font-size: 20px;
 }
