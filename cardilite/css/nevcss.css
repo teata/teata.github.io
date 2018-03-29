@@ -1,0 +1,272 @@
+/*.navbar .navbar-default .navbar-fixed-top {}
+*/
+.container-fluid {
+padding-top: 5px;
+padding-right: 10px;
+padding-left: 10px;
+}
+body {
+    padding-top: 55px;
+    /*background-color: #fafafa;*/
+    /*background-color: #292929;*/
+    background-color: #c7c7c7;
+    color: #333333;
+}
+.owl-carousel .item{
+max-width: 100%;
+}
+@media only screen and (min-width: 768px) {
+body {
+    padding-top: 95px;
+}
+.container-fluid {
+padding-top: 0px;
+padding-right: 30px;
+padding-left: 30px;
+}
+.navbar-right {
+            padding: 30px;
+    }
+}
+
+header {
+    padding-bottom: 0px;
+}
+
+#main-menu {
+    background-color: #eeeeee;
+        /*background-image: url("images/MyImages/header.png");*/
+
+}
+.container {
+       padding-top: 0px;
+}
+h2 {
+    margin-top: -20px;
+    color: #640ba3;
+    /*color: #cc66ff;*/
+    text-align: center;
+}
+/*gallery*/
+.section-header .section-title {
+    color: #640ba3;
+    /*color: #cc66ff;*/
+    }
+a {
+  color: #0e0e0e;
+  -webkit-transition: color 400ms, background-color 400ms;
+  -moz-transition: color 400ms, background-color 400ms;
+  -o-transition: color 400ms, background-color 400ms;
+  transition: color 400ms, background-color 400ms;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+/*@major_color: #0e0e0e;*/
+/*@media only screen and (min-width: 768px) {*/
+  #main-menu.navbar-default {
+/*background: rgba(255, 255, 255, 0.9);*/
+    /*background: rgba(14, 14, 14, 0.85);*/
+    background: rgba(249, 249, 249, 0.9);
+    /*background-image: url("images/MyImages/header.png");*/        
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  #main-menu.navbar-default .navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #main-menu.navbar-default .navbar-nav > li.active > a,
+  #main-menu.navbar-default .navbar-nav > li.open > a,
+  #main-menu.navbar-default .navbar-nav > li:hover > a {
+    background: transparent;
+    padding-top: 37px;
+    /*border-top: 3px solid #45aed6;*/
+      border-top: none;
+  }
+  #main-menu.navbar-default .dropdown-menu {
+    padding: 0 20px;
+    min-width: 220px;
+    background-color: #b0aeae;
+    opacity: 0.9;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-clip: inherit;
+  }
+  #main-menu.navbar-default .dropdown-menu > li {
+    border-left: 2px solid transparent;
+    margin-left: -15px;
+    padding-left: 17px;
+    -webit-transition: border-color 400ms;
+    transition: border-color 400ms;
+  }
+  #main-menu.navbar-default .dropdown-menu > li > a {
+    border-top: none;
+    padding: 15px 0;
+    color: #fff;
+  }
+  #main-menu.navbar-default .dropdown-menu > li:first-child > a {
+    border-top: 0;
+  }
+  #main-menu.navbar-default .dropdown-menu > li.active,
+  #main-menu.navbar-default .dropdown-menu > li.open,
+  #main-menu.navbar-default .dropdown-menu > li:hover {
+    border-left-color: #ffcc66;
+  }
+  #main-menu.navbar-default .dropdown-menu > li.active > a,
+  #main-menu.navbar-default .dropdown-menu > li.open > a,
+  #main-menu.navbar-default .dropdown-menu > li:hover > a {
+    color: #ffcc66;
+    background-color: transparent;
+  }
+/*.navbar-right .dropdown-menu {
+    right: 115px;
+    left: auto;
+}*/
+.navbar-right {
+            padding: -20px;
+    }
+.navbar.navbar-default .navbar-brand {
+     padding-top: 10px;
+     padding-bottom: 10px;
+    }
+.btn {
+  border-radius: 5px;
+  border-width: 1px;
+  border-bottom-width: 3px; /*bayangan di bawah btn*/   
+  border-color: #818181;      
+     }
+.btn:hover {
+  border-radius: 6px;
+  border-width: 1px;
+  border-bottom-width: none; /*bayangan di bawah btn*/   
+border-color: #a5a5a5;      
+    
+  }         
+.btn-danger, .dropdown-toggle{
+    color: white;
+    /*background-color: #c9c7c7;*/
+    background-color: #c7c7c7;   
+     /*border-style: none;*/
+}
+.btn-danger:hover {
+    color: #fff;
+    /*background-color: #58f700;*/
+    background-color: #46c869;
+   /* background-color: #b0aeae;*/
+  /*  border-color: #000000;*/
+}
+.collapse, .navbar-collapse, .navbar-right {
+    /*border-style: none;*/
+    /*border-color: #959595;*/
+}
+.btn-danger:focus, .open>.dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #b0aeae;
+    border-color: #b0aeae;
+}
+  /*}*/
+img {
+max-width: 75%;
+}
+.navbar.navbar-default .navbar-toggle {
+    margin-top: 0px;
+    }
+/*#main-slider .owl-carousel .item .background-image{
+    max-width: 100%;
+    }
+    /*
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }*/
+#cta {
+    background-color: #eeeeee;
+    /*background-color: rgba(238, 238, 238, 0.8);*/
+    text-align: justify;
+}
+.contactsplit{
+    /*border-left: solid 1px #00cc33;*/
+}
+a.email {
+    color:grey;
+}
+.call {
+    color: grey;
+}
+a.email:hover {
+    color:lightgrey;
+}
+
+/*contact-us*/
+#wrapper {
+padding-top: 0px;
+}
+label {
+		/*color: #9acd40;*/
+        /*color: #00cc33;*/
+                /*color: #4fd604;*/
+                color: #333333;
+        }
+.icon.alt:before {
+/*    background-color: #4fd604;*/
+    background-color: #46c869;
+    }
+textarea, input[type="text"], input[type="email"] {
+	background: #f2f2f2;
+        }
+textarea:focus, input[type="text"]:focus, input[type="email"]:focus {
+	/*border-color: #46c869;*/
+	box-shadow: 0 0 0 1px #46c869;
+        }
+#contact a{
+/*color: #f2f2f2;*/
+color: #333333;
+}
+#contact .contact-method a:hover{
+/*color: #66cc00;*/
+color: #45aed6;
+}
+#contact button, html input[type=reset], input[type=submit] {
+background-color: #dddddd;
+border-radius: 8px;
+border-width: 1px;
+border-color: #818181;
+  }
+#contact button:hover, html input[type=reset]:hover, input[type=submit]:hover {
+background-color: #eeeeee;
+  }
+#contact button:focus, html input[type=reset]:focus, input[type=submit]:focus {
+border-color: #818181;
+  }
+       
+#footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fff;
+    /*background: #2e2e2e;*/
+    /*background: #f9f9f9;*/
+    background: #eeeeee;
+        text-align: center;
+    }
+#footer .copyright{
+color:#8c8c8c;
+}
+#footer a{
+color:#333333;
+}
+
+
+
+
+
+
