@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>about</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/tamc.css" rel="stylesheet">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <ul class="nav masthead-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact1.html">Contact</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="WebContent">Content<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="recipe.html">Tea Companions Recipe</a></li>
+                        <li><a href="Quote.html">Quote</a></li>
+                        <li><a href="story.html">Inspiring Story</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="isi">
+        <p>Hi there...., my name is Tita, i'am a housewife and mother of two handsome boys. I like to spend my afternoon time with a cup of tea.</p>
+        <p>I love cooked too, so you can find some recipe of cake, cookies or pudding as your tea companion, feel free to try some and tell me if you like or dislike it.</p>
+        <p>Also i share some story about kids, parenting, life, etc, hope you'll be inspired to share your story and make your own teatime.</p>
+        
+    </div>
+    <!--footer-->
+    <div class="masfoot">
+        <p>&copy; titam2016</p>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('.dropdown-submenu a.test').on("click", function(e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+
+</html>
