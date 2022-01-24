@@ -36,13 +36,13 @@ h2 {
 }
 
 a {
-    color: #2196f3;
+    color: #000000;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #0f72c1;
+    color: #519259;
 }
 
 .subheading {
@@ -168,12 +168,12 @@ a:active {
   .heading-border {
       width: 60px;
       height: 10px;
-      background-color: #2196f3;
+      background-color: #519259;
       margin: 0 auto 20px auto;
   }
 
   section.resume-section {
-      border-bottom: 1px solid #dee2e6;
+      border-bottom: 1px solid #f5f5f5;
       padding-top: 5rem !important;
       padding-bottom: 5rem !important;
   }
@@ -199,11 +199,11 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #2196f3 !important;
+      background-color: #519259!important;
   }
 
   .text-primary {
-      color: #2196f3 !important;
+      color: #519259 !important;
   }
 
 /*==================================================
@@ -407,7 +407,7 @@ a:active {
 }
 
 .skill-cover {
-    background-color: rgba(31, 31, 31, 0.68); 
+    background-color: #e9ecef; 
 }
 
 .skill-cover h3{
@@ -423,7 +423,7 @@ a:active {
 }
 
 .skill-item i {
-    color: #2196f3;
+    color: #519259;
 }
 
 .skill-item h2 {
@@ -697,7 +697,7 @@ a:active {
     margin:30px 0;
     border-color: #ccc;
     border-radius: 0;
-    color: #717171;
+    color: #519259;
 }
 
 .contact-side-desc{
@@ -709,7 +709,7 @@ a:active {
 }
 
 .contact-box-desc h3 i{
-  color: #2196f3;
+  color: #519259;
 }
 
 .social-icon-f li{
@@ -720,7 +720,7 @@ a:active {
   height: 35px;
   width:35px;
   line-height: 35px;
-  border:2px solid #2196f3;
+  border:2px solid #e9ecef;
   text-align: center;
   margin-right: 10px;
   border-radius: 50%;
